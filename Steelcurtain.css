@@ -1,66 +1,57 @@
 body {
 
-background-color: black
+background-color: black;
+color: yellow;
 
 }
 
 h1 {
 
-font-size: 25px; color:yellow
+font-size: 25px;
+ color:yellow
+
 }
 
-p {
+ul {
 
 color:yellow;
-
+    
 font-size:25px;
-
+    
 }
 
 ol {
 
     color:yellow;
-    
+
     font-size:25px;
+}
+
+#lombardi {
+
+    width: 20px;
+    height:20px;
+}
     
-    }
-
-
 .hov{
 
-    height: 200px; 
-    width: 200px;
-    background-color: blue;
+height: 200px; 
+width: 200px;
+background-color: blue;
 }
-.hov:hover{
+a:hover{
 
     background-color: red;
     
-}
-
-.img {
-
-    float: center;
-
-<!-- image size not working-->
-
-    size: 200px;
-}
-
-.lombardi.webp {
-
-    text-align: center;
-
-    width:20px ;
-
-    height: 50px;
 }
 
 h2{
 
     color:yellow;
 
-    font: Arial Italic;
+    font:bold
+
+
 
 }
 h3{
@@ -69,21 +60,94 @@ h3{
 
     font: arial bold;
 
+    font-size:larger
+
 
 }
 .grid {
         
-    font color: yellow;
+    color: yellow;
 
 
 }
 
 .franco{
 
-    width: 200px;
+    width: 500px;
 }
 
+.hines{
+
+    width:300px;
+}
+.wr{
+    color:yellow;
+    border:color(from color srgb r g b)
+}
+.wrlist{
+
+    color:yellow;
+}
 #logo {
 
-    align-items: right
+text-align: center
+
+
 }
+
+.table-border-width {
+    border: 1px solid;
+    width: 75%;
+    color: white
+    
+}
+
+.table-headers-borders{
+    border: 1px solid;
+    color: white;
+    font-size: large;
+}
+
+
+.td{
+    color:white;
+    border: 1px solid;
+}
+.wr{
+   color:yellow;
+   border: 1px solid;
+ 
+}
+ol{
+    color:yellow;
+}
+#alltime{
+
+    color:yellow
+
+
+}
+h4{
+    color:yellow;
+}
+label{
+
+    color: yellow;
+    font-size:medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
